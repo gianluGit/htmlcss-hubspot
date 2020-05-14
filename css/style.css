@@ -1,0 +1,29 @@
+/* regole generali di pagina */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* prima sezione header */
+#section-fixed {
+  background-color: red;
+  height: 50px;
+  border-bottom: 1px solid black;
+}
+/*  */
+
+/* seconda sezione header */
+#sfondo-navbar {
+  background-color: yellow;
+  height: 50px;
+  border-bottom: 1px solid black;
+}
+/*  */
+
+/* terza sezione header */
+#sfondo-jumbo {
+  background-color: pink;
+  height: 500px;
+  border-bottom: 1px solid black;
+}

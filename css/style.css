@@ -10,15 +10,12 @@
   margin: auto;
 }
 
-<<<<<<< HEAD
 .width80::after {
   content: "";
   display: table;
   clear: both;
 }
 
-=======
->>>>>>> 4d78211c5cdbc279a0abf73c4280f1989cb84caf
 /* prima sezione header */
 #section-fixed {
   background-color: #FFFAF0;
@@ -27,14 +24,8 @@
 }
 
 .lingua-contattaci {
-<<<<<<< HEAD
   width: 50%;
   float: left;
-=======
-  display: inline-block;
-  height: 100%;
-  width: 40%;
->>>>>>> 4d78211c5cdbc279a0abf73c4280f1989cb84caf
 }
 
 .lingua-contattaci span {
@@ -56,23 +47,14 @@
 }
 
 .login-bar {
-<<<<<<< HEAD
   text-align: right;
   width: 50%;
   float: left;
-=======
-  display: inline-block;
-  text-align: right;
-  width: 55%;
->>>>>>> 4d78211c5cdbc279a0abf73c4280f1989cb84caf
 }
 
 .login-bar a {
   text-decoration: none;
-<<<<<<< HEAD
   line-height: 50px;
-=======
->>>>>>> 4d78211c5cdbc279a0abf73c4280f1989cb84caf
 }
 
 #login-button {

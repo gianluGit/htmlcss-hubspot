@@ -75,17 +75,78 @@
 }
 /*  */
 
-/* seconda sezione header */
+
+/* seconda sezione header: navbar */
 #sfondo-navbar {
-  background-color: yellow;
   height: 50px;
   border-bottom: 1px solid black;
+}
+
+nav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo-sito {
+  width: 30%;
+  float: left;
+}
+
+.logo-sito img {
+  margin-top: 10px;
+}
+
+.navbar {
+  width: 70%;
+  float: left;
+}
+
+.navbar ul {
+  text-align: right;
+  line-height: 50px;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.navbar ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
 }
 /*  */
 
 /* terza sezione header */
 #sfondo-jumbo {
-  background-color: pink;
+  background-image: url(../img/jumbotron.png);
+  background-size: 1440px 500px;
+  background-repeat: no-repeat;
   height: 500px;
   border-bottom: 1px solid black;
+}
+
+.title-jumbo {
+  padding-top: 40px;
+  width: 35%;
+}
+
+.title-jumbo h1 {
+  font-size: 40px;
+}
+
+.title-jumbo p {
+  padding: 20px 0;
+}
+
+.title-jumbo .button-jumbo {
+  text-decoration: none;
+  margin: 0;
+}
+
+.title-jumbo span {
+  display: block;
+  margin-top: 20px;
 }

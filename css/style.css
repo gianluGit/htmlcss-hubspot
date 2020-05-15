@@ -64,6 +64,7 @@
   border: none;
   background-color: #FFFAF0;
   width: 70%;
+  font-size: 15px;
 }
 
 .login-bar {
@@ -200,10 +201,10 @@ nav::after {
 
 /* inizio seconda mini sezione main */
 .riga {
-  /* debug */
   min-height: 200px;
   background-color: white;
-  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px grey;
 }
 
 /* regole per float */
@@ -220,7 +221,6 @@ nav::after {
   padding: 30px;
   /* debug */
   height: 100%;
-  border-right: 1px solid black;
 }
 
 .col-2 {
@@ -247,4 +247,37 @@ nav::after {
   padding: 10px;
   border-radius: 5px;
   margin-top: 10px;
+}
+
+#contenuto-free-crm {
+  padding: 30px 0;
+}
+
+#contenuto-free-crm p {
+  margin: 20px 0;
+}
+
+#contenuto-free-crm h4  {
+  display: inline-block;
+  width: 25%;
+}
+
+#contenuto-free-crm span {
+  display: inline-block;
+  width: 30%;
+  border-bottom: 1px solid grey;
+  margin-bottom: 5px;
+}
+
+#contenuto-free-crm ul {
+  margin-top: 20px;
+}
+
+#contenuto-free-crm ul li {
+  margin-right: 15px;
+  display: inline-block;
+}
+
+#contenuto-free-crm ul li::before {
+  content: "\25cf\a0";
 }

@@ -137,7 +137,7 @@ nav::after {
 /* terza sezione header */
 #sfondo-jumbo {
   background-image: url(../img/jumbotron.png);
-  background-size: 1440px 500px;
+  background-size: 100% 500px;
   background-repeat: no-repeat;
   height: 500px;
   border-bottom: 1px solid black;
@@ -164,4 +164,59 @@ nav::after {
 .title-jumbo span {
   display: block;
   margin-top: 20px;
+}
+/* FINE header */
+
+/* inizio main */
+#sfondo-perlato {
+  background-color: #FFFAF0;
+  /* debug */
+  min-height: 700px;
+}
+
+/* inizio prima mini sezione main */
+.powerful {
+  text-align: center;
+  padding: 50px 0;
+  /* debug */
+  /* height: 200px; */
+}
+
+.powerful h2 {
+  margin: 20px 0;
+}
+
+
+.image-cubo img {
+  width: 150px;
+}
+/*  */
+
+/* inizio seconda mini sezione main */
+.riga {
+  /* debug */
+  height: 200px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.riga::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-1 {
+  width: 30%;
+  float: left;
+  /* debug */
+  height: 100%;
+  border-right: 1px solid black;
+}
+
+.col-2 {
+  width: 70%;
+  float: left;
+  /* debug */
+  height: 100%;
 }

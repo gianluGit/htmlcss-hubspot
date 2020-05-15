@@ -21,6 +21,11 @@
   background-color: #FFFAF0;
   height: 50px;
   border-bottom: 1px solid black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 .lingua-contattaci {
@@ -95,6 +100,7 @@
 #sfondo-navbar {
   height: 50px;
   border-bottom: 1px solid black;
+  margin-top: 50px;
 }
 
 nav::after {
@@ -195,20 +201,23 @@ nav::after {
 /* inizio seconda mini sezione main */
 .riga {
   /* debug */
-  height: 200px;
+  min-height: 200px;
   background-color: white;
   border: 2px solid black;
 }
 
+/* regole per float */
 .riga::after {
   content: "";
   display: table;
   clear: both;
 }
+/*  */
 
 .col-1 {
   width: 30%;
   float: left;
+  padding: 30px;
   /* debug */
   height: 100%;
   border-right: 1px solid black;
@@ -219,4 +228,23 @@ nav::after {
   float: left;
   /* debug */
   height: 100%;
+}
+
+.contenuto-up, .contenuto-down {
+  text-align: center;
+}
+
+.contenuto-up img {
+  width: 150px;
+}
+
+
+.learn-button {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: orange;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
 }

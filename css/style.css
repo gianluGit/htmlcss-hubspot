@@ -28,6 +28,14 @@
   float: left;
 }
 
+#earth {
+  display: inline;
+}
+
+#earth a {
+  display: inline;
+}
+
 .lingua-contattaci span {
   display: inline-block;
   width: 20%;
@@ -41,9 +49,16 @@
   color: black;
 }
 
+
 #select-lingua {
   border-right: 1px solid lightgrey;
   margin-right: 25px;
+}
+
+#select-lingua select {
+  border: none;
+  background-color: #FFFAF0;
+  width: 70%;
 }
 
 .login-bar {

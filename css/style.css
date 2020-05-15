@@ -281,3 +281,78 @@ nav::after {
 #contenuto-free-crm ul li::before {
   content: "\25cf\a0";
 }
+/*  */
+
+/* inizio terza mini sezione main */
+
+/* regole per float */
+.riga2::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*  */
+
+.riga2 {
+  margin-top: 40px;
+}
+
+.colonna2 {
+  margin: 0 5%;
+}
+
+.colonna1, .colonna2, .colonna3 {
+  width: 30%;
+  height: 630px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px grey;
+  float: left;
+}
+
+.image-hub img {
+  width: 150px;
+  height: 160px;
+}
+
+
+.contenuto-colonna {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.contenuto-colonna ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.contenuto-colonna ul li::before {
+  content: "\25cf\a0";
+  color: orange;
+  margin-right: 20px;
+}
+
+.contenuto-colonna h3, .contenuto-colonna h4 {
+  margin: 20px 0;
+}
+
+#separatore span {
+  display: inline-block;
+  width: 60%;
+  border-bottom: 1px solid grey;
+  margin-bottom: 20px;
+}
+
+.contenuto-colonna p {
+  margin-bottom: 40px;
+}
+
+
+.contenuto-colonna ul {
+  text-align: left;
+  padding-left: 45px;
+}
+
+/* inizio seconda MACRO sezione main */
+
+/* inizio prima mini sezione */

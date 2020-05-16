@@ -14,11 +14,6 @@ body {
   margin: auto;
 }
 
-/* .width80::after {
-  content: "";
-  display: table;
-  clear: both;
-} */
 
 /* regole per float */
 .riga::after {
@@ -55,7 +50,7 @@ body {
 
 .lingua-contattaci span {
   display: inline-block;
-  width: 20%;
+  width: 15%;
   margin-top: 15px;
 }
 
@@ -72,12 +67,13 @@ body {
   margin-right: 25px;
 }
 
-#select-lingua select {
+
+/* #select-lingua select {
   border: none;
   background-color: #FFFAF0;
   width: 70%;
   font-size: 15px;
-}
+} */
 
 .login-bar {
   text-align: right;
@@ -143,7 +139,7 @@ nav::after {
 
 .navbar ul li {
   display: inline-block;
-  margin: 0 5px;
+  margin: 0 20px;
 }
 
 .navbar ul li a {
@@ -158,7 +154,7 @@ nav::after {
   background-image: url(../img/jumbotron.png);
   background-size: 100% 500px;
   background-repeat: no-repeat;
-  height: 500px;
+  min-height: 500px;
   border-bottom: 1px solid black;
 }
 
@@ -173,6 +169,7 @@ nav::after {
 
 .title-jumbo p {
   padding: 20px 0;
+  line-height: 25px;
 }
 
 .title-jumbo .button-jumbo {
@@ -196,14 +193,15 @@ nav::after {
 .powerful {
   text-align: center;
   padding: 50px 0;
-  /* debug */
-  /* height: 200px; */
 }
 
 .powerful h2 {
   margin: 20px 0;
 }
 
+.powerful p {
+  line-height: 25px;
+}
 
 .image-cubo img {
   width: 150px;
@@ -223,15 +221,11 @@ nav::after {
   width: 30%;
   float: left;
   padding: 30px;
-  /* debug */
-  /* height: 100%; */
 }
 
 .col-2 {
   width: 70%;
   float: left;
-  /* debug */
-  /* height: 100%; */
 }
 
 .contenuto-up, .contenuto-down {
@@ -253,12 +247,17 @@ nav::after {
   margin-top: 10px;
 }
 
+.learn-button:hover {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
 #contenuto-free-crm {
   padding: 30px 0;
 }
 
 #contenuto-free-crm p {
   margin: 20px 0;
+  line-height: 25px;
 }
 
 #contenuto-free-crm h4  {
@@ -342,6 +341,7 @@ nav::after {
 
 .contenuto-colonna p {
   margin-bottom: 40px;
+  line-height: 25px;
 }
 
 
@@ -369,6 +369,10 @@ nav::after {
 
 .learn-title h2 {
   padding: 30px 0;
+}
+
+.learn-title p {
+  line-height: 25px;
 }
 
 .row150 .square {
@@ -443,6 +447,7 @@ nav::after {
 .contenuto-col-64 span {
   display: block;
   margin-bottom: 5px;
+  line-height: 25px;
 }
 
 .loghi-sponsor-up, .loghi-sponsor-down {
@@ -490,30 +495,22 @@ nav::after {
 }
 /* FINE main */
 
+/* inizio footer */
 #sfondo-footer {
   background-color: #2F4F4F;
   min-height: 500px;
   padding-top: 20px;
 }
 
-.riga-footer {
-  /* debug */
-  /* min-height: 300px;
-  background-color: lightgreen;
-  border: 1px solid black; */
-}
 
 .col-footer {
   float: left;
   width: calc(100% / 4);
-  /* debug */
-  /* min-height: 300px;
-  border-right: 1px solid black; */
 }
 
 .col-footer h4 {
   margin-bottom: 20px;
-  color: lightgrey;
+  color: white;
 }
 
 .col-footer ul li {
@@ -521,6 +518,12 @@ nav::after {
   margin-bottom: 10px;
   color: lightgrey;
 }
+
+.col-footer ul li a {
+  text-decoration: none;
+  color: lightgrey;
+}
+
 
 #footer-button {
   display: inline-block;
@@ -556,3 +559,36 @@ nav::after {
   margin-right: 20px;
   margin-bottom: 20px;
 }
+
+.col-credits {
+  float: left;
+  width: 50%;
+  padding-top: 30px;
+}
+
+.col-credits-sx span {
+  display: block;
+  color: lightgrey;
+  margin-top: 10px;
+}
+
+.col-credits-dx {
+  text-align: right;
+}
+
+.col-credits-dx a {
+  text-decoration: none;
+  color: lightgrey;
+  display: inline-block;
+}
+
+.col-credits-dx a:first-child {
+  margin-right: 20px;
+}
+
+.col-footer ul li a:hover, .social-link a:hover, .epilogo-pagina a:hover, .col-credits-dx a:hover  {
+  color: lightblue;
+}
+/* fine footer */
+
+/* FINE */

@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
 .width80 {
   width: 80%;
   margin: auto;
@@ -397,3 +401,96 @@ nav::after {
 /* fine seconda MACRO sezione main */
 
 /* inizio terza MACRO sezione main */
+
+/* inizio prima mini sezione: sponsor */
+#sfondo-bianco {
+  background-color: white;
+  min-height: 600px;
+  position: relative;
+}
+
+#blocco-sponsor {
+  padding-top: 30px;
+}
+
+.sponsor {
+  min-height: 200px;
+  margin-bottom: 40px;
+}
+
+.col-64, .col-sponsor {
+  float: left;
+}
+
+.col-64 {
+  width: 40%;
+}
+
+.col-sponsor {
+  width: 60%;
+}
+
+.contenuto-col-64 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.contenuto-col-64 h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.contenuto-col-64 span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.loghi-sponsor-up, .loghi-sponsor-down {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.loghi-sponsor-up img, .loghi-sponsor-down img {
+  width: 110px;
+  height: 25px;
+}
+/* fine mini sezione sponsor */
+
+/* inizio seconda mini sezione - logo woman- */
+
+.col-start-grow, .col-logo-woman {
+  float: left;
+  width: 50%;
+}
+
+.col-start-grow h2 {
+  margin-bottom: 20px;
+}
+
+.col-start-grow p {
+  line-height: 25px;
+}
+
+.col-start-grow .orange-button {
+  display: inline-block;
+  margin: 30px 0;
+  text-decoration: none;
+}
+
+.col-start-grow span {
+  display: block;
+}
+
+.col-logo-woman img {
+  width: 250px;
+  height: 320px;
+  position: absolute;
+  bottom: 70px;
+  right: 250px;
+}
+/* FINE main */
+
+#sfondo-footer {
+  background-color: #2F4F4F;
+  min-height: 500px;
+}

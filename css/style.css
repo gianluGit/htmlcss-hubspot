@@ -10,11 +10,19 @@
   margin: auto;
 }
 
-.width80::after {
+/* .width80::after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+/* regole per float */
+.riga::after {
   content: "";
   display: table;
   clear: both;
 }
+/*  */
 
 /* prima sezione header */
 #section-fixed {
@@ -177,7 +185,6 @@ nav::after {
 /* inizio main */
 #sfondo-perlato {
   background-color: #FFFAF0;
-  /* debug */
   min-height: 700px;
 }
 
@@ -200,34 +207,27 @@ nav::after {
 /*  */
 
 /* inizio seconda mini sezione main */
-.riga {
+.crm {
   min-height: 200px;
   background-color: white;
   border-radius: 10px;
   box-shadow: 1px 1px 1px 1px grey;
 }
 
-/* regole per float */
-.riga::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-/*  */
 
 .col-1 {
   width: 30%;
   float: left;
   padding: 30px;
   /* debug */
-  height: 100%;
+  /* height: 100%; */
 }
 
 .col-2 {
   width: 70%;
   float: left;
   /* debug */
-  height: 100%;
+  /* height: 100%; */
 }
 
 .contenuto-up, .contenuto-down {
@@ -285,16 +285,9 @@ nav::after {
 
 /* inizio terza mini sezione main */
 
-/* regole per float */
-.riga2::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-/*  */
 
-.riga2 {
-  margin-top: 40px;
+.hubs {
+  padding: 40px 0;
 }
 
 .colonna2 {
@@ -356,3 +349,51 @@ nav::after {
 /* inizio seconda MACRO sezione main */
 
 /* inizio prima mini sezione */
+#sfondo-verde-acqua {
+  background-color: #66CDAA;
+  min-height: 500px;
+}
+
+.row150 {
+  padding: 30px 0;
+}
+
+.learn-title {
+  text-align: center;
+  color: white;
+}
+
+.learn-title h2 {
+  padding: 30px 0;
+}
+
+.row150 .square {
+  float: left;
+  width: calc(100% / 4);
+  min-height: 200px;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.row150 .square:last-child {
+  border: none;
+}
+
+#inbound {
+  border-right: none;
+}
+
+#border-none {
+  border-bottom: none;
+}
+
+.square h2 {
+  margin: 10px 0;
+  font-size: 40px;
+}
+/* fine seconda MACRO sezione main */
+
+/* inizio terza MACRO sezione main */

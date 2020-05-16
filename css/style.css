@@ -513,20 +513,20 @@ nav::after {
 
 .col-footer h4 {
   margin-bottom: 20px;
-  color: white;
+  color: lightgrey;
 }
 
 .col-footer ul li {
   list-style: none;
   margin-bottom: 10px;
-  color: white;
+  color: lightgrey;
 }
 
 #footer-button {
   display: inline-block;
   text-decoration: none;
   color: #2F4F4F;
-  background-color: white;
+  background-color: lightgrey;
   padding: 8px;
   border-radius: 5px;
 }
@@ -541,4 +541,18 @@ nav::after {
   color: white;
   font-size: 20px;
   margin-right: 22px;
+}
+
+.epilogo-pagina {
+  margin-top: 70px;
+  text-align: center;
+
+}
+
+.epilogo-pagina a {
+  display: inline-block;
+  text-decoration: none;
+  color: lightgrey;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }

@@ -54,9 +54,10 @@ body {
   margin-right: 20px;
 }
 
-
-.lingua-contattaci span {
-  border-left: 1px solid grey;
+#seleziona-lingua::after{
+  content: "\2228";
+  position: relative;
+  left: 5px;
 }
 
 .login-bar {
@@ -123,13 +124,18 @@ nav::after {
 
 .navbar ul li {
   display: inline-block;
-  margin-left: 25px;
+  margin-left: 20px;
 }
 
 .navbar ul li a {
   display: inline-block;
   text-decoration: none;
   color: black;
+}
+
+.navbar .drop-menu::after {
+  content: "\2228";
+  margin-left: 20px;
 }
 /*  */
 
